@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REG</title>
+    <style>
+        body{
+            background-image:url(wall1.jpeg);
+        background-size: cover;
+        }
+   form{
+      text-align: center;
+   }
+   input{
+       width: 250px;
+       padding: 5px;
+   }
+   input:focus{
+      outline: 0px;
+   }
+    </style>
+    
+
+</head>
+<body>
+    <form action="
+    ">
+   
+        
+        <h1> NEW Cusutomer</h1>
+            <label> USername</label> <br>
+          <input type="text" id="un"  required>
+            <label id="error"></label> <br>
+          <label> E-mail</label><br>
+          <input type="email" id="email"   required><br>
+          <label id="error1"></label>
+          <label> Password</label><br>
+            
+            <input type="password" id="pass"   required><br>
+            <label id="error2"></label>
+            <label> RE-Password</label><br>
+            <label id="error3"></label>
+            <input type="password" id="pass1"   required><br>
+            <label id="error2"></label>
+            <button  >Register</button>
+        </form>
+        <script>
+                let  a=document.getElementById('error2')
+                 if(pass==pass1){
+                    document.write("<h1> Register successfully</h1>");
+                 }
+                 else{
+                       a.innerText("invaild ");
+                 }
+
+
+        </script>
+
+    
+</body>
+</html>
